@@ -1,4 +1,6 @@
 import pytest
+import appmap.pytest
+
 from flaskbb.user.models import User, Guest
 
 

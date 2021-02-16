@@ -1,4 +1,5 @@
 import pytest
+import appmap.pytest
 
 from flaskbb.auth.services import activation
 from flaskbb.core.exceptions import ValidationError

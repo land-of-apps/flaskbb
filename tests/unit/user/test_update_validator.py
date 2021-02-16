@@ -1,6 +1,8 @@
 from uuid import uuid4
 
 import pytest
+import appmap.pytest
+
 from requests.exceptions import RequestException
 
 from flaskbb.core.exceptions import StopValidation, ValidationError

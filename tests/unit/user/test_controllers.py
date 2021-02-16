@@ -1,6 +1,8 @@
 from datetime import date
 
 import pytest
+import appmap.pytest
+
 from flask import get_flashed_messages, url_for
 from flask_login import current_user, login_user
 from werkzeug.datastructures import MultiDict

@@ -1,6 +1,7 @@
 """Fixtures for the forum models."""
 import datetime
 import pytest
+import appmap.pytest
 
 from flaskbb.forum.models import Forum, Category, Topic, Post, ForumsRead, \
     TopicsRead

@@ -1,4 +1,6 @@
 import pytest
+import appmap.pytest
+
 from pluggy import HookimplMarker
 
 from flaskbb.core.changesets import ChangeSetPostProcessor

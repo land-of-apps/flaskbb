@@ -1,6 +1,8 @@
 from datetime import datetime, timedelta
 
 import pytest
+import appmap.pytest
+
 from flaskbb.auth.services import authentication as auth
 from flaskbb.core.auth.authentication import (AuthenticationFailureHandler,
                                               AuthenticationProvider,

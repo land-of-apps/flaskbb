@@ -1,6 +1,8 @@
 from datetime import datetime, timedelta
 
 import pytest
+import appmap.pytest
+
 from freezegun import freeze_time
 
 from flaskbb import tokens

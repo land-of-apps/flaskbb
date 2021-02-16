@@ -1,4 +1,6 @@
 import pytest
+import appmap.pytest
+
 from werkzeug.security import check_password_hash
 
 from flaskbb.auth.services import password

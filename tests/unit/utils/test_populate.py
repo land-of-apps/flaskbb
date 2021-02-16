@@ -1,4 +1,6 @@
 import pytest
+import appmap.pytest
+
 from sqlalchemy.exc import OperationalError
 from sqlalchemy_utils.functions import create_database, drop_database
 

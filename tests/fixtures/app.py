@@ -1,4 +1,5 @@
 import pytest
+import appmap.pytest
 
 from flaskbb import create_app
 from flaskbb.configs.testing import TestingConfig as Config

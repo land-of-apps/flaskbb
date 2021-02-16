@@ -1,5 +1,7 @@
 """Tests for the utils/fields.py file."""
 import pytest
+import appmap.pytest
+
 from wtforms.form import Form
 from flaskbb.utils.fields import SelectBirthdayWidget, BirthdayField
 

@@ -1,4 +1,6 @@
 import pytest
+import appmap.pytest
+
 from flaskbb.plugins.manager import FlaskBBPluginManager
 from flaskbb.plugins import spec
 

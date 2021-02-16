@@ -2,6 +2,7 @@
 # https://github.com/pytest-dev/pluggy/blob/master/testing/test_pluginmanager.py
 # and are licensed under the MIT License.
 import pytest
+import appmap.pytest
 
 
 def test_pluginmanager(plugin_manager):

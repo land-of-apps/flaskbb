@@ -1,4 +1,6 @@
 import pytest
+import appmap.pytest
+
 from flask import _request_ctx_stack, request
 
 from flaskbb.utils import requirements as r

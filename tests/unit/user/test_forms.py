@@ -1,6 +1,8 @@
 from datetime import date
 
 import pytest
+import appmap.pytest
+
 from werkzeug.datastructures import MultiDict
 
 from flaskbb.core.user.update import (

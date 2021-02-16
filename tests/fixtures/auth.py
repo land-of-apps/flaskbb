@@ -1,6 +1,7 @@
 import json
 
 import pytest
+import appmap.pytest
 
 from flaskbb.core.tokens import Token
 

@@ -2,6 +2,7 @@ from collections import namedtuple
 from os import path
 
 import pytest
+import appmap.pytest
 
 from responses import RequestsMock, Response
 

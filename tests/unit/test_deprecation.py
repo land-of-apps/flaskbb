@@ -1,6 +1,7 @@
 import warnings
 
 import pytest
+import appmap.pytest
 
 from flaskbb.deprecation import RemovedInFlaskBB3, deprecated
 

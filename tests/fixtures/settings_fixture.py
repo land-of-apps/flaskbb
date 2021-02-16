@@ -1,4 +1,6 @@
 import pytest
+import appmap.pytest
+
 from flaskbb.utils.forms import SettingValueType
 
 

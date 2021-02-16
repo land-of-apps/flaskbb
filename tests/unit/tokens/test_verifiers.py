@@ -1,4 +1,5 @@
 import pytest
+import appmap.pytest
 
 from flaskbb.core.exceptions import ValidationError
 from flaskbb.core.tokens import Token, TokenActions

@@ -1,4 +1,5 @@
 import pytest
+import appmap.pytest
 
 from flaskbb.auth.services.registration import (EmailUniquenessValidator,
                                                 UsernameRequirements,

@@ -1,6 +1,8 @@
 from datetime import datetime
 
 import pytest
+import appmap.pytest
+
 from flaskbb.auth.services import reauthentication as reauth
 from flaskbb.core.auth.authentication import (PostReauthenticateHandler,
                                               ReauthenticateFailureHandler,
